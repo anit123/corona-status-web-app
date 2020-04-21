@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  background-image: url('./background.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0px;
+
+}
+.card{
+  transition: 0.5s;
+  background: #eee;
+  /* width: 40%;
+  display:inline-block; */
+}
+.card:hover i,h5{
+  color:#c2185b
+}
+.card:hover{
+  transform: scale(1.03);
+  background: #fff;
+}
+.card h5{
+  padding:10px 0px;
+}
+.td{
+ font: larger;
+}
